@@ -1,7 +1,7 @@
 ## Portfolio-Website
 Portfolio website build using HTML5, CSS3, JavaScript and jQuery.
 
-<a href="bajranggour.tech" target="_blank">**Visit Now** 🚀</a>
+<a href="https://code-bajju.github.io/bajrang-portfolio/" target="_blank">**Visit Now** 🚀</a>
 
 
 ### Extras : 
