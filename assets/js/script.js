@@ -68,8 +68,6 @@ document.addEventListener('visibilitychange',
         }
     });
 
-
-// <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
     strings: ["frontend development", "backend development", "web designing", "blogging", "web development"],
     loop: true,
