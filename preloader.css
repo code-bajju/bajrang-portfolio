@@ -1,0 +1,48 @@
+.circles-preloader {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+  }
+  .circle {
+    width: 2.5%;
+    padding-top: 2.5%;
+    height: 0%;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .circle-1 {
+    background-color: red;
+    opacity: 0;
+    animation: 4s circle-move 0s infinite; 
+  }
+  .circle-2 {
+    background-color: green;
+    opacity: 0;
+    animation: 4s circle-move 1s infinite;
+  }
+  .circle-3 {
+    background-color: blue;
+    opacity: 0;
+    animation: 4s circle-move 2s infinite;
+  }
+  .circle-4 {
+    background-color: yellow;
+    opacity: 0;
+    animation: 4s circle-move 3s infinite;
+  }
+  @keyframes circle-move {
+    0%, 15% { left: 53.5%; transform: translateX(-50%) translateY(-50%) scale(0); opacity: 0; }
+      15.1%, 25% { left: 53.5%; transform: translateX(-50%) translateY(-50%) scale(0.5); opacity: 0.5; }
+    50% { left: 50%; transform: translateX(-50%) translateY(-50%) scale(1); opacity: 1; }
+    75%, 85% { left: 46.5%; transform: translateX(-50%) translateY(-50%) scale(0.5); opacity: 0.5; }
+    85.1%, 100% { left: 46.5%; transform: translateX(-50%) translateY(-50%) scale(0); opacity: 0; }
+  }
+  
