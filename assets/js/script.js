@@ -170,7 +170,10 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 
 window.addEventListener('load', function () {
     const preloader = document.querySelector('.preloader');
-    preloader.classList.add('hide');
+    
+    setTimeout(function() {
+      preloader.classList.add('hide');
+    }, 5000);
   });
 // pre loader end
 
