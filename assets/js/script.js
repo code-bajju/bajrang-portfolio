@@ -167,6 +167,11 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 //     setInterval(loader, 500);
 // }
 // window.onload = fadeOut;
+
+window.addEventListener('load', function () {
+    const preloader = document.querySelector('.preloader');
+    preloader.classList.add('hide');
+  });
 // pre loader end
 
 // disable developer mode
