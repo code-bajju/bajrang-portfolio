@@ -143,6 +143,19 @@ header .navbar ul li a:hover {
 /* navbar ends */
 
 /* hamburger icon starts*/
+ .navbar::before,
+  #menu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.286);
+    z-index: -1;
+  }
+
 #menu {
   font-size: 3rem;
   cursor: pointer;
