@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 
 * {
   margin: 0;
@@ -12,13 +14,14 @@
   transition: all 0.2s linear;
 }
 html {
-  font-size: 62.5%;
+  font-size: 72.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 body {
   background: #f7f7f7;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  /* font-family: "Ubuntu", normal; */
 }
 
 *::selection {
@@ -59,6 +62,17 @@ html::-webkit-scrollbar-thumb {
 /* pre loader end */
 
 /* navbar starts */
+.navbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(5px); 
+  background-color: rgba(255, 255, 255, 0.3); 
+  z-index: -1;
+}
 header {
   position: fixed;
   top: 0;
@@ -70,9 +84,13 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+  /* background-color: #fff; */
+  /* box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3); */
 }
+/* header .navbar.blurbackground{
+  backdrop-filter: blur(200px); 
+  background-color: rgba(255, 255, 255, 0.673);
+} */
 section {
   min-height: 100vh;
   padding: 2rem 9%;
@@ -121,6 +139,7 @@ header .navbar ul li a:hover {
   border-bottom: 0.2rem solid #011aff;
   padding: 0.5rem 0;
 }
+
 /* navbar ends */
 
 /* hamburger icon starts*/
@@ -176,6 +195,7 @@ header .navbar ul li a:hover {
     right: 0;
   }
 }
+
 /* hamburger icon ends */
 
 /* hero section starts*/
@@ -253,7 +273,7 @@ header .navbar ul li a:hover {
   color: #fff;
   background: #2506ad;
   box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
-  font-family: "Nunito", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 .home .btn span {
   font-weight: 700;
@@ -389,7 +409,7 @@ header .navbar ul li a:hover {
 .about .row .content p {
   font-size: 1.5rem;
   margin-top: 1.5rem;
-  font-family: "Nunito";
+  font-family: "Ubuntu";
   font-weight: 600;
   text-transform: none;
 }
@@ -397,7 +417,7 @@ header .navbar ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  font-family: "Nunito";
+  font-family: "Ubuntu";
   font-weight: 600;
 }
 .about .row .content .box-container .box p {
@@ -416,7 +436,7 @@ header .navbar ul li a:hover {
   color: #fff;
   background: #2506ad;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
-  font-family: "Nunito", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 .resumebtn .btn span {
   font-weight: 600;
@@ -530,6 +550,15 @@ header .navbar ul li a:hover {
   }
 }
 /* skills media queries ends*/
+
+.achievements .qoute {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
 /* skills section ends */
 
 /* education section starts */
@@ -540,7 +569,7 @@ header .navbar ul li a:hover {
 .education .qoute {
   font-size: 1.5rem;
   text-align: center;
-  font-family: "Nunito", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   margin-top: 0.5rem;
 }
@@ -604,7 +633,7 @@ header .navbar ul li a:hover {
   color: rgb(34, 109, 0);
   text-align: left;
   margin: 1rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
 }
 
@@ -743,7 +772,7 @@ header .navbar ul li a:hover {
 .work .viewall .btn span {
   font-weight: 600;
   font-size: 1.7rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 .work .viewall .btn i {
   margin-left: 0.3rem;
@@ -875,7 +904,7 @@ header .navbar ul li a:hover {
 .morebtn .btn span {
   font-weight: 600;
   font-size: 1.7rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 .morebtn .btn i {
   margin-left: 0.3rem;
@@ -1044,7 +1073,7 @@ form .button-area {
   background: #2506ad;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   transition: 0.3s ease;
-  font-family: "Nunito", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 .button-area button:hover {
   background: #421cecf5;
@@ -1155,7 +1184,7 @@ form .button-area {
   padding: 1rem 0 0 0;
   text-align: center;
   font-size: 1.5rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #fff;
   border-top: 0.1rem solid #fff3;
