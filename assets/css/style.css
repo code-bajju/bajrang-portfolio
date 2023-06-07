@@ -288,6 +288,10 @@ header .navbar ul li a:hover {
   font-weight: 600;
   padding: 1rem 0;
 }
+.home .content p.herotext{
+  font-size: medium;
+  color: #002057;
+}
 .home .btn {
   margin-top: 1rem;
   position: absolute;
