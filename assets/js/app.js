@@ -12,27 +12,26 @@ particlesJS.load('particles-js', 'particles.json', function() {
 /* Otherwise just put the config content (json): */
 
 particlesJS('particles-js',
-  
 {
   "particles": {
     "number": {
-      "value": 10,
+      "value": 80,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#002057"
+      "value": "#000000"
     },
     "shape": {
-      "type": "star",
+      "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000"
+        "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 6
+        "nb_sides": 5
       },
       "image": {
         "src": "img/github.svg",
@@ -41,8 +40,8 @@ particlesJS('particles-js',
       }
     },
     "opacity": {
-      "value": 0.5037984806077571,
-      "random": true,
+      "value": 0.5,
+      "random": false,
       "anim": {
         "enable": false,
         "speed": 1,
@@ -51,25 +50,25 @@ particlesJS('particles-js',
       }
     },
     "size": {
-      "value": 35.447026388341854,
-      "random": false,
+      "value": 3,
+      "random": true,
       "anim": {
-        "enable": true,
-        "speed": 10,
-        "size_min": 40,
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
         "sync": false
       }
     },
     "line_linked": {
-      "enable": false,
-      "distance": 200,
-      "color": "#ffffff",
-      "opacity": 1,
-      "width": 2
+      "enable": true,
+      "distance": 150,
+      "color": "#000000",
+      "opacity": 0.4,
+      "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 8,
+      "speed": 6,
       "direction": "none",
       "random": false,
       "straight": false,
@@ -87,7 +86,7 @@ particlesJS('particles-js',
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "bubble"
+        "mode": "repulse"
       },
       "onclick": {
         "enable": true,
