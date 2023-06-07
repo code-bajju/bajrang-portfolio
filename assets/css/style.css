@@ -25,7 +25,7 @@ body {
 }
 
 *::selection {
-  background: #2b3dda;
+  background: #002057;
   color: #fff;
 }
 
@@ -40,7 +40,7 @@ html::-webkit-scrollbar-track {
   background: rgb(235, 202, 245);
 }
 html::-webkit-scrollbar-thumb {
-  background: #420177;
+  background: #002057;
 }
 
 /* pre loader start */
@@ -97,18 +97,19 @@ section {
 }
 .heading {
   font-size: 3.5rem;
-  color: rgb(32, 32, 32);
-  font-weight: 800;
+  color: #000
+  ;
+  font-weight: 600;
   text-align: center;
 }
 .heading span {
-  color: rgb(115, 3, 167);
+  color: #002057;
 }
 header .logo {
   font-size: 1.9rem;
-  font-weight: 800;
+  font-weight: 600;
   text-decoration: none;
-  color: #0e2431;
+  color: #002057;
 }
 header .logo i {
   font-size: 2.2rem;
@@ -127,7 +128,7 @@ header .navbar li {
 }
 header .navbar ul li a {
   font-size: 1.57rem;
-  color: #0e2431;
+  color: #002057;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.04rem;
@@ -181,7 +182,7 @@ header .navbar ul li a:hover {
     border-radius: 5em;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color: #002057;
     /* Add this line */
   }
   
@@ -189,7 +190,7 @@ header .navbar ul li a:hover {
     flex-flow: column;
     padding: 1rem;
     /* backdrop-filter: blur(5px); */
-    background-color: #0e0f31;
+    background-color: #002057;
     border-radius: 3em;
   }
   header .navbar ul li {
@@ -268,12 +269,12 @@ header .navbar ul li a:hover {
 }
 .home .content h2 {
   font-size: 4rem;
-  font-weight: 800;
+  font-weight: 600;
   color: #002057;
 }
 .home .content h2 span {
   font-size: 4rem;
-  font-weight: 800;
+  font-weight: 600;
   color: #ff7b00;
 }
 .home .content p {
@@ -432,16 +433,21 @@ header .navbar ul li a:hover {
   font-size: 2.5rem;
 }
 .about .row .content .tag {
-  font-size: 1.4rem;
-  color: #020133;
-  font-weight: 600;
+  font-size: 1.2rem;
+  border-radius: 0.5em;
+  background-color: #f68b0945;
+  color: #002057;
+  font-weight: 400;
+  /* margin-top: 100px; */
+  /* top: 10px; */
+  padding: 1%;
   margin-top: 1rem;
 }
 .about .row .content p {
   font-size: 1.5rem;
   margin-top: 1.5rem;
   font-family: "Poppins";
-  font-weight: 600;
+  font-weight: 400;
   text-transform: none;
 }
 .about .row .content .box-container {
@@ -455,7 +461,7 @@ header .navbar ul li a:hover {
   text-transform: none;
 }
 .about .row .content .box-container .box p span {
-  color: #011aff;
+  color: #002057;
 }
 .resumebtn {
   margin-top: 6rem;
@@ -465,7 +471,7 @@ header .navbar ul li a:hover {
   border-radius: 0.5em;
   transition: 0.3s;
   color: #fff;
-  background: #2506ad;
+  background: #002057;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   font-family: "Poppins", sans-serif;
 }
@@ -512,7 +518,7 @@ header .navbar ul li a:hover {
 /* skills section starts */
 .skills {
   min-height: 90vh;
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  background: linear-gradient(to bottom, #040e1f, #002057);
 }
 .skills h2 {
   color: #fff;
@@ -648,7 +654,7 @@ header .navbar ul li a:hover {
 }
 .education .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #012970;
+  color: #002057;
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -702,7 +708,7 @@ header .navbar ul li a:hover {
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #000031, #00002c);
+  background: linear-gradient(to bottom, #002057, #00002c);
 }
 .work h2 {
   color: #fff;
@@ -829,7 +835,7 @@ header .navbar ul li a:hover {
   content: "";
   position: absolute;
   width: 6px;
-  background: #020133;
+  background: #002057;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -857,7 +863,7 @@ header .navbar ul li a:hover {
   font-size: 1.89rem;
   text-align: center;
   font-weight: 600;
-  color: #02094b;
+  color: #002057;
   font-family: "Font Awesome\ 5 Free";
 }
 .experience .left {
@@ -928,7 +934,7 @@ header .navbar ul li a:hover {
   border-radius: 0.5em;
   transition: 0.5s;
   color: #fff;
-  background: #2506ad;
+  background: #002057;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   text-align: center;
 }
@@ -1101,7 +1107,7 @@ form .button-area {
   cursor: pointer;
   border-radius: 5px;
   padding: 13px 25px;
-  background: #2506ad;
+  background: #002057;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   transition: 0.3s ease;
   font-family: "Poppins", sans-serif;
@@ -1202,7 +1208,7 @@ form .button-area {
   margin-right: 1rem;
   transition: 0.2s;
   background: rgb(230, 230, 230);
-  color: #02094b;
+  color: #002057;
   border: none;
 }
 .footer .box-container .box .share a:hover {
