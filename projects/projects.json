@@ -5,8 +5,8 @@
     "image": "pollex",
     "category": "Portfolio",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/notystack-android"
+      "view": "https://github.com/code-bajju/pollex-public",
+      "code": "https://github.com/code-bajju/pollex-public"
     }
   },
   
@@ -16,8 +16,8 @@
     "image": "weatherlyandroid",
     "category": "Portfolio",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/weatherly-android"
+      "view": "Moksha-dusky-vercel.app",
+      "code": "https://github.com/code-bajju/moksha"
     }
   },
   {
@@ -27,7 +27,7 @@
     "category": "Portfolio",
     "links": {
       "view": "https://bajranggour.tech",
-      "code": "https://github.com/code-bajju"
+      "code": "https://github.com/code-bajju/bajrang-portfolio"
     }
   },
   {
@@ -36,8 +36,8 @@
     "image": "roadar",
     "category": "Portfolio",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/sppu-prep-android"
+      "view": "https://github.com/code-bajju/roadar",
+      "code": "https://github.com/code-bajju/roadar"
     }
   },
   {
@@ -46,8 +46,8 @@
     "image": "diagnoscan",
     "category": "Portfolio",
     "links": {
-      "view": "https://github.com/code-bajju",
-      "code": "https://github.com/code-bajju"
+      "view": "https://github.com/code-bajju/diagnoscan",
+      "code": "https://github.com/code-bajju/diagnoscan"
     }
   }
 ]
